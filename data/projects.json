@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "Authentification",
+        "short_description": "Un projet où je dois implémenter l'authentification.",
+        "description": "Ce projet a pour objectif de mettre en place un système d'authentification robuste et sécurisé pour les applications web et mobiles. Il inclut la gestion des utilisateurs, l'authentification multi-facteurs, et les sessions de connexion. La solution cible la protection des données sensibles et vise à renforcer la sécurité globale des applications.",
+        "context": "Dans un environnement de plus en plus exposé aux cybermenaces, il est essentiel de sécuriser les accès aux applications. Ce projet a été initié pour répondre aux besoins des entreprises en matière de protection des informations sensibles. En déployant un système d'authentification avancé, nous visons à protéger les utilisateurs contre l'usurpation d'identité et les accès non autorisés.",
+        "problem": "L'authentification est un élément crucial de la sécurité des applications, mais elle peut affecter l'expérience utilisateur si elle est trop contraignante. Le défi est donc de trouver un équilibre entre sécurité maximale et expérience utilisateur fluide, pour garantir que les utilisateurs restent protégés sans être frustrés par des procédures complexes.",
+        "solution": "Utilisation de JWT et de la sécurisation des endpoints avec OAuth 2.0.",
+        "stack": "Python, Flask, JWT, OAuth 2.0",
+        "status": "En cours",
+        "image": "static/images/login.png",
+        "link": "/project/1"
+    },
+    {
+        "id": 2,
+        "title": "Tokenisation",
+        "short_description": "Tokenisation dans le marché de l'immobilier.",
+        "description": "Ce projet vise à transformer les actifs immobiliers en tokens numériques pour faciliter l'investissement. En fragmentant les propriétés, les investisseurs peuvent acheter et échanger des parts de biens immobiliers de manière plus flexible et accessible. La tokenisation simplifie également la gestion des actifs et apporte une transparence accrue grâce à la blockchain.",
+        "context": "L'immobilier est un marché traditionnellement illiquide et coûteux. Les investissements nécessitent généralement de grandes sommes d'argent, ce qui limite l'accessibilité pour de nombreux investisseurs. La tokenisation des actifs immobiliers permet de démocratiser cet accès en permettant à chacun d'acheter des parts de biens sous forme de tokens.",
+        "problem": "Le principal défi de ce projet est de créer un environnement sécurisé et réglementé pour la gestion et le transfert de tokens immobiliers. La blockchain offre une solution technique, mais l'intégration de ces innovations dans un cadre légal et sécurisé pour les investisseurs nécessite des ajustements et des solutions sur mesure.",
+        "solution": "Création d'une plateforme de tokenisation utilisant la blockchain pour garantir la sécurité des transactions.",
+        "stack": "Solidity, Ethereum, React, Node.js",
+        "status": "En production",
+        "image": "static/images/tokens.png",
+        "link": "/project/2"
+    },
+    {
+        "id": 3,
+        "title": "Gestion des utilisateurs",
+        "short_description": "Un projet de gestion d'utilisateurs avec accès contrôlé.",
+        "description": "Ce projet permet de gérer les utilisateurs, les rôles et les permissions dans une application. Il inclut des fonctionnalités pour ajouter, supprimer, et modifier les droits des utilisateurs, et gère les autorisations d'accès à diverses fonctionnalités en fonction des rôles. Cette approche assure une organisation sécurisée et structurée des droits au sein de l'application.",
+        "context": "La gestion des utilisateurs est une composante essentielle de toute application où plusieurs types d'utilisateurs interagissent. Il est important de pouvoir contrôler qui a accès à quelles parties de l'application, surtout dans des environnements sensibles où des données confidentielles sont manipulées.",
+        "problem": "Dans les applications complexes, il est difficile de garantir que seules les personnes autorisées accèdent à des informations et fonctionnalités spécifiques. Le projet vise à résoudre ce problème en offrant un système de contrôle d'accès basé sur les rôles, permettant une administration flexible et sécurisée.",
+        "solution": "Implémentation d'une architecture basée sur des rôles avec ACL (Access Control List).",
+        "stack": "Python, Django, MySQL",
+        "status": "En phase de test",
+        "image": "static/images/users.png",
+        "link": "/project/3"
+    },
+    {
+        "id": 4,
+        "title": "Analyse de données immobilières",
+        "short_description": "Un projet d'analyse avancée de données dans le domaine immobilier.",
+        "description": "Ce projet utilise des techniques d'analyse de données pour comprendre les tendances du marché immobilier. L'objectif est de fournir des insights clairs et actionnables aux investisseurs, agences immobilières et particuliers, leur permettant de prendre des décisions éclairées basées sur des données et des prédictions fiables.",
+        "context": "L'industrie immobilière génère une quantité massive de données, mais il est souvent difficile pour les investisseurs de les interpréter. Ce projet a pour but de rendre ces données accessibles et exploitables grâce à des outils de visualisation et de machine learning, permettant une meilleure compréhension des dynamiques du marché.",
+        "problem": "Le défi est de traiter et d'analyser de grands volumes de données de manière précise et rapide, en utilisant des techniques de machine learning et de data science. L'outil doit être capable de fournir des prévisions fiables, malgré la volatilité du marché immobilier.",
+        "solution": "Utilisation de techniques de machine learning pour l'analyse prédictive.",
+        "stack": "Python, Pandas, Scikit-learn, Tableau",
+        "status": "Terminé",
+        "image": "static/images/analytics.png",
+        "link": "/project/4"
+    },
+    {
+        "id": 5,
+        "title": "Plateforme e-commerce",
+        "short_description": "Un projet de développement d'une plateforme e-commerce.",
+        "description": "Ce projet consiste à développer une plateforme de vente en ligne, incluant la gestion des produits, utilisateurs, commandes et paiements. L'application offre une interface utilisateur intuitive, avec un processus de paiement sécurisé et des fonctionnalités avancées pour la gestion des stocks et des promotions.",
+        "context": "Avec l'évolution du commerce en ligne, il est essentiel pour les entreprises de disposer d'une plateforme e-commerce performante et sécurisée. Ce projet vise à offrir une solution de vente en ligne robuste et scalable pour répondre aux besoins croissants des marchands et des consommateurs.",
+        "problem": "Les sites e-commerce doivent proposer une expérience fluide tout en garantissant la sécurité des transactions. Ce projet traite ce défi en développant un système qui allie convivialité pour l'utilisateur et protection maximale des données sensibles.",
+        "solution": "Développement d'une plateforme full-stack avec intégration des paiements sécurisés.",
+        "stack": "JavaScript, Node.js, MongoDB, Stripe",
+        "status": "En production",
+        "image": "static/images/ecommerce.png",
+        "link": "/project/5"
+    },
+    {
+        "id": 6,
+        "title": "Application de gestion de tâches",
+        "short_description": "Un projet de gestion de tâches pour organiser le travail en équipe.",
+        "description": "Développement d'une application qui permet aux équipes de créer, organiser, et suivre leurs tâches et projets en temps réel. Cette application facilite la collaboration en offrant des fonctionnalités comme le suivi des deadlines, les priorités, et l'assignation de tâches, avec une vue d'ensemble de l'avancement des projets.",
+        "context": "La gestion de tâches est cruciale pour la productivité des équipes, surtout dans les environnements de travail à distance. Ce projet vise à offrir un outil intuitif pour aider les équipes à suivre leur travail de manière organisée et collaborative.",
+        "problem": "Les équipes peuvent perdre de la productivité sans un système de suivi efficace des tâches et projets. Ce projet répond à ce problème en offrant un outil centralisé pour la gestion des tâches, permettant une meilleure coordination et visibilité.",
+        "solution": "Application avec fonctionnalités de collaboration en temps réel et gestion des tâches.",
+        "stack": "Vue.js, Firebase, Express.js",
+        "status": "En cours",
+        "image": "static/images/tasks.png",
+        "link": "/project/6"
+    }
+]

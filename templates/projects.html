@@ -1,0 +1,47 @@
+<h2 class="text-center mb-5">Mes Projets</h2>
+<div class="project-list row">
+    {% for project in projects %}
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 custom-card shadow-sm">
+            <div class="card-img-container">
+                <img src="{{ project.image }}" class="card-img-top custom-card-img" alt="{{ project.title }}">
+            </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">{{ project.title }}</h5>
+                <p class="card-text">{{ project.short_description }}</p>
+                <!-- Bouton pour le modale -->
+                <button type="button" class="btn btn-primary w-100 mb-2" data-bs-toggle="modal" data-bs-target="#projectModal{{ project.id }}">
+                    Jeter un coup d'œil
+                </button>
+                <!-- Bouton pour la page de description complète -->
+                <a href="#" class="btn btn-primary w-100">
+                    Voir la description complète
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="projectModal{{ project.id }}" tabindex="-1" aria-labelledby="projectModalLabel{{ project.id }}" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="projectModalLabel{{ project.id }}">{{ project.title }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body custom-modal-body">
+                    <p><strong>Contexte :</strong> {{ project.context }}</p>
+                    <p><strong>Problématique :</strong> {{ project.problem }}</p>
+                    <p><strong>Solution :</strong> {{ project.solution }}</p>
+                    <p><strong>Stack Technique :</strong> {{ project.stack }}</p>
+                    <p><strong>Statut :</strong> {{ project.status }}</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    {% endfor %}
+</div>

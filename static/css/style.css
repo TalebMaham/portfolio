@@ -1,0 +1,130 @@
+/* Style global pour le fond de la page */
+body {
+    background-color: #f8f9fa; /* Couleur de fond gris clair */
+}
+
+/* Couleur de titre */
+h2 {
+    color: #343a40; /* Gris foncé pour un style moderne */
+}
+
+/* Style pour les cartes */
+.custom-card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.custom-card:hover {
+    transform: scale(1.02); /* Effet de zoom léger au survol */
+}
+
+/* Style pour les images dans les cartes */
+.card-img-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.custom-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Boutons stylisés */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+    border-color: #6c757d;
+}
+
+/* Modale - en-tête avec couleur personnalisée */
+.modal-header {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+
+.btn-primary {
+    background-color:black;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+/* Uniformité de la taille */
+.w-100 {
+    width: 100%;
+}
+
+
+/*modale */
+/* Limiter la hauteur du corps de la modale */
+.custom-modal-body {
+    max-height: 400px; /* Ajustez cette valeur selon vos préférences */
+    overflow-y: auto;
+}
+
+/* Style de la barre de défilement pour un aspect professionnel */
+.custom-modal-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-modal-body::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+    border-radius: 4px;
+}
+
+.custom-modal-body::-webkit-scrollbar-track {
+    background: #e9ecef;
+}
+
+
+/* Style de la section À propos de moi */
+.about-section {
+    padding: 20px 0;
+}
+
+/* Style de l'image */
+.profile-img {
+    width: 80%; /* Ajustez la largeur selon vos préférences */
+    max-width: 200px;
+    border-radius: 50%; /* Arrondir l'image pour un effet professionnel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère */
+    position: relative;
+    left: -20px; /* Déplacer légèrement l'image vers la gauche */
+}
+
+/* Ajustements pour petits écrans */
+@media (max-width: 767.98px) {
+    .profile-img {
+        left: 0; /* Remettre l'image au centre sur les petits écrans */
+    }
+}
+
+
+
+
+
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
