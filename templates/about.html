@@ -2,7 +2,8 @@
     <div class="row align-items-center">
         <!-- Colonne de la photo -->
         <div class="col-md-4 text-center text-md-end">
-            <img src="static/images/moi.jpg" alt="Ma photo" class="profile-img">
+            <img src="{{ url_for('static', filename='images/moi.jpg') }}" alt="Ma photo" class="profile-img">
+
         </div>
         <!-- Colonne du texte -->
         <div class="col-md-8">
