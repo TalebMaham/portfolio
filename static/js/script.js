@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Fonction pour charger l'indicateur de section via AJAX
     function loadSection(sectionName) {
-        fetch(`/section/${sectionName}`)
+        fetch(`portfolio/section/${sectionName}`)
             .then(response => response.json())
             .then(data => {
                 showSection(data.section);

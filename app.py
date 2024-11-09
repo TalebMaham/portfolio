@@ -12,20 +12,20 @@ def load_projects():
 
 
 
-@app.route('/')
+@app.route('/portfolio')
 def home():
     projects_json = load_projects()
     return render_template('index.html', section="home", projects = projects_json )
 
-@app.route('/section/about')
+@app.route('/portfolio/section/about')
 def about():
     return jsonify({"section": "about"})
 
-@app.route('/section/projects')
+@app.route('/portfolio/section/projects')
 def projects():
     return jsonify({"section": "projects"})
 
-@app.route('/section/contact')
+@app.route('/portfolio/section/contact')
 def contact():
     return jsonify({"section": "contact"})
 
